@@ -72,6 +72,9 @@ footer{
     color: white;
     font-size: 0.85rem;
     padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
 }
 
 .footer_icon {
