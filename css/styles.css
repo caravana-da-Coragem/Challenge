@@ -37,7 +37,7 @@ h1{
     margin: 20px 15px 25px 0;
     position: absolute;
     right: 0px;
-    top: 16px;
+    top: 6px;
     
 }
 
@@ -48,8 +48,16 @@ ul{
     right: 75px;
 }
 
-a {
+a{
     text-decoration: none;
+}
+
+a>h1 {
+    color: white;
+}
+
+ul>li>a {
+    
     color:  black;
     font-family: "Archivo Black-Regular", Helvetica;
     font-weight: 400;
