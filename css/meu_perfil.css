@@ -1,0 +1,49 @@
+.pannels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin: 1% 2% 1% 2%;
+    gap: 3%;
+}
+
+
+.left-pannel {
+    /* position: absolute;
+    left: 5%;
+    top: 30%; */
+}
+
+.left-pannel2 {
+    /* position: absolute;
+    left: 5%;
+    bottom: 3cap;  */
+}
+
+.left-pannel{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+    font-size: 1.3rem;
+}
+
+.button_meu_perfil {
+    width: 300px;
+}
+
+.middle-pannel{
+    /* position: absolute;
+    top: 30%;
+    left: 30%; */
+}
+
+.right-pannel {
+    /* position: absolute;
+    right: 5%;
+    top: 30%; */
+}
+
+.chat_template {
+    width: 400px;
+    height: 600px;
+}
+
