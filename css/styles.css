@@ -10,9 +10,17 @@
 header{
     background-color: #00A1FC;
     color: white;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     display: flex;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.chat_template {
+    height: 750px;
 }
 
 .butons{
@@ -26,7 +34,7 @@ header{
 }
 
 .icon-usuario {
-    margin: 0px 15px 25px 0;
+    margin: 20px 15px 25px 0;
     position: absolute;
     right: 0px;
     top: 16px;
@@ -45,4 +53,19 @@ a {
     color:  black;
     font-family: "Archivo Black-Regular", Helvetica;
     font-weight: 400;
+}
+
+footer{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 0.85rem;
+    padding: 3px;
+}
+
+.footer_icon {
+    max-width: 25px;
 }
