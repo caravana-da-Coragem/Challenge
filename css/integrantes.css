@@ -1,0 +1,22 @@
+.pannels {
+    margin-left: 12%;
+    
+}
+
+.card_integrantes{
+    display: flex;
+    gap: 2%;
+    margin-bottom: 3%;
+}
+
+.icon_github {
+    width: 100px;
+   text-align: center;
+}
+
+.card_icon_github {
+    display: block;
+    text-align: center;
+    margin-right: 150px;
+    padding-bottom: 100px;
+}
