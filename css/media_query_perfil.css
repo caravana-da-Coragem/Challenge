@@ -12,8 +12,7 @@
     }
     .pannels{
         flex-direction: column;
-        margin-left: 15%;
-        img
+        margin-left: 10%;
     }
     .alterarSenha, .excluirUsuario {
         max-width: 70%;

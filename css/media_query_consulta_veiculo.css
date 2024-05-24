@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Celular */
+@media screen and (min-width: 0px) and (max-width: 600px) {
+
+    .pannels{
+        flex-direction: column;
+        border-width: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .prisma{
+        max-width: 100%;
+    }
+    .card_veiculo{
+        max-width: 120%;
+        margin-right: 8%;
+    } 
+   
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+    .pannels{
+        flex-direction: column;
+        border-width: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .prisma{
+        max-width: 100%;
+    }
+    .card_veiculo{
+        max-width: 120%;
+        margin-right: 8%;
+    } 
+   
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .card_veiculo{
+        max-width: 120%;
+        margin-right: 3%;
+    } 
+
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  
+
+}
+
+
+@media screen and (min-width: 1201px) {
+
+    
+}
