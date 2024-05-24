@@ -3,16 +3,16 @@
     justify-content: space-between;
 }
 
+
 .left_pannel {
     margin-left: 15%;
 }
 
 .button__meu_perfil,
 .button__consulta_veiculo,
-.button__consulta_peca {
+.button__consulta_peca,
+.button__manuais_manutencao_celular {
     margin: 0 18px;
 }
 
-.right_pannel {
-    margin: 2% 5%;
-}
+
