@@ -1,8 +1,14 @@
-.right_pannel {
+.left_pannel {
     position: absolute;
-    right: 5%;
-    top: 15%;
+    right: 25%;
+    top: 50%;
     bottom: 30%;
+    gap: 10px;
+}
+
+.button__manuais_manutencao{
+    position: absolute;
+    right: 20%;
 }
 
 .pannels {

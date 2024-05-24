@@ -26,6 +26,12 @@
     font-size: 1.3rem;
 }
 
+.middle-pannel{
+    display: flex;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
 .button_meu_perfil {
     width: 300px;
 }
