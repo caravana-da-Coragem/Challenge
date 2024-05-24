@@ -1,7 +1,7 @@
 .pannels {
     display: flex;
     justify-content: space-between;
-    margin-top: 3%;
+    margin-top: 15%;
     margin: 1% 2% 1% 2%;
     gap: 3%;
 }
@@ -31,6 +31,7 @@
     margin-right: 20%;
     margin-top: 5%;
 }
+
 
 .button_meu_perfil {
     width: 300px;
