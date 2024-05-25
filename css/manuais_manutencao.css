@@ -1,17 +1,18 @@
-.left_pannel {
-    position: absolute;
-    right: 25%;
-    top: 50%;
-    bottom: 30%;
-    gap: 10px;
-}
-
-.button__manuais_manutencao{
-    position: absolute;
-    right: 20%;
-}
-
 .pannels {
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
 }
+.button__manuais_manutencao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 5%;
+    row-gap: 1.5rem;
+}
+
+
+
+
 
