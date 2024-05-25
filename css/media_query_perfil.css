@@ -18,36 +18,81 @@
         max-width: 70%;
     }
    
-}
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
 
-
-@media screen and (min-width: 601px) and (max-width: 768px) {
-
-    .meus_veiculos_celular{
+    .butons {
         display: none;
     }
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
-
-    .meus_veiculos_celular{
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .meus_veiculos {
         display: none;
+    }
+    .meus_veiculos_celular {
+        display: flex;
+        max-width: 120%;
+    }
+    .pannels {
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .alterarSenha, .excluirUsuario {
+        max-width: 70%;
+    }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .meus_veiculos {
+        display: none;
+    }
+    .meus_veiculos_celular {
+        display: flex;
+        max-width: 80%;
+        
+    }
+    .pannels {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        margin-left: 30%;
+    }
+
+    .alterarSenha, .excluirUsuario {
+        max-width: 50%;
+    }
+    
+    .left-pannel {
+        display: flex;
+        justify-content: center;
     }
 }
 
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  
-    .meus_veiculos_celular{
+    .meus_veiculos {
+        display: flex;
+        max-width: 100%;
+    }
+    .meus_veiculos_celular {
         display: none;
     }
+    .pannels {
+        flex-direction: row;
+        margin-left: 0;
+    }
+    
 }
 
-
 @media screen and (min-width: 1201px) {
-
-    .meus_veiculos_celular{
+    .meus_veiculos_celular {
         display: none;
     }
     

@@ -1,5 +1,7 @@
 .pannels {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .button__manuais_manutencao{
