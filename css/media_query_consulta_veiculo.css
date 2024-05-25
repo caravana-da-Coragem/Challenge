@@ -16,6 +16,16 @@
         max-width: 120%;
         margin-right: 8%;
     } 
+
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .butons {
+        display: none;
+    }
    
 }
 
@@ -35,27 +45,69 @@
         max-width: 120%;
         margin-right: 8%;
     } 
+
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .butons {
+        display: none;
+    }
    
 
 }
 
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    .card_veiculo{
-        max-width: 120%;
-        margin-right: 3%;
+    .pannels {
+        flex-direction: column;
+        border-width: 4%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .prisma {
+        max-width: 90%;
+    }
+    .card_veiculo {
+        max-width: 110%;
+        margin-right: 6%;
     } 
-
 }
 
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  
+    .pannels {
+        flex-direction: row;
+        border-width: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .prisma {
+        max-width: 80%;
+    }
+    .card_veiculo {
+        max-width: 100%;
+        margin-right: 4%;
+    }
 
 }
 
 
 @media screen and (min-width: 1201px) {
-
+    .pannels {
+        flex-direction: row;
+        border-width: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .prisma {
+        max-width: 70%;
+    }
+    .card_veiculo {
+        max-width: 90%;
+        margin-right: 2%;
+    } 
     
 }

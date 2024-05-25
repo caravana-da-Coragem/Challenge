@@ -1,0 +1,11 @@
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .butons {
+        display: none;
+    }
+}

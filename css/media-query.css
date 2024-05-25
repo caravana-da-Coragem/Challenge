@@ -3,11 +3,24 @@
 /* Celular */
 @media screen and (min-width: 0px) and (max-width: 600px) {
 
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
+
     .button__manuais_manutencao {display: none;}  
     .button__meu_perfil, .button__consulta_veiculo, .button__consulta_peca, .button__manuais_manutencao_celular{
-        margin: 0 18px;
+        margin-left: 5%;
+        margin-top: 5%; 
+        margin-right: 5%;
         display: block;
-        max-width: 70%;
+        max-width: 50%;
+        gap: 50px;
+    }
+
+    .butons {
+        display: none;
     }
 }
 
@@ -17,26 +30,66 @@
     .button__meu_perfil, .button__consulta_veiculo, .button__consulta_peca, .button__manuais_manutencao_celular{
         margin: 0 18px;    
     }
+
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .butons {
+        display: none;
+    }
 }
 
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    
-    .button__manuais_manutencao_celular {display: none;}     
-    
+    .button__manuais_manutencao {
+        display: none;
+    }  
+    .button__meu_perfil, .button__consulta_veiculo, .button__consulta_peca, .button__manuais_manutencao_celular {
+        margin: 0 16px;
+    }
+
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
+
+    .butons {
+        display: none;
+    }
 }
 
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  
-    .button__manuais_manutencao_celular {display: none;} 
-    
+    .button__manuais_manutencao {
+        display: none;
+    }  
+    .button__meu_perfil, .button__consulta_veiculo, .button__consulta_peca, .button__manuais_manutencao_celular {
+        margin: 0 14px;
+    }
+
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
 }
 
 
 @media screen and (min-width: 1201px) {
+    .button__manuais_manutencao_celular {
+        display: none; 
+    }  
+    .button__meu_perfil, .button__consulta_veiculo, .button__consulta_peca, .button__manuais_manutencao_celular {
+        margin: 0 12px;
+    }
 
-    .button__manuais_manutencao_celular {display: none;} 
-
-    
+    .header {
+        padding: 25px;
+        text-align: left;
+        justify-content: space-between;
+    }
 }
